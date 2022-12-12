@@ -1,0 +1,28 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 938px; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* */ }
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  #header .container .home .home-row-1 .home-name {
+    font-size: 36px; }
+  #header .container .home .home-row-1 .home-description {
+    font-size: 16px;
+    text-align: left; }
+  #header .container .home .home-row-1 .home-languages {
+    display: none; }
+
+  .title {
+    font-size: 24px; }
+
+  .subtitle {
+    font-size: 14px; } }
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */ }
+
+/*# sourceMappingURL=adaptive.css.map */
