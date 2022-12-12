@@ -1,0 +1,250 @@
+@import "vars"
+*
+	margin: 0
+	padding: 0
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+	&:focus
+		outline: none
+
+*::-webkit-input-placeholder
+	color: #c0c0c0
+	opacity: 1
+
+*:-moz-placeholder
+	color: #c0c0c0
+	opacity: 1
+
+*::-moz-placeholder
+	color: #c0c0c0
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #c0c0c0
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #000
+body input:required:valid,
+body textarea:required:valid
+	color: #000
+
+html,body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+
+img
+	max-width: 100%
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.title
+	font-weight: 900
+	font-size: 30px
+	line-height: 41px
+	color: $accent
+	margin-bottom: 20px
+	text-align: center
+.subtitle
+	max-width: 420px
+	font-weight: 400
+	font-size: 18px
+	line-height: 22px
+	text-align: center
+	color: #070707
+
+.menu-burger
+
+
+					// HOME
+
+#header
+	.container
+		.nav
+			width: 100%
+			height: 56px
+			display: flex
+			justify-content: space-between
+			align-items: flex-start
+			margin-top: 30px
+			border-bottom: 1px solid $light
+			.nav-item
+				font-weight: 600
+				font-size: 18px
+				color: $light
+				text-decoration: none
+				transition: $anim
+				&:hover
+					color: $accent
+		.home
+			.home-row-1
+				display: flex
+				justify-content: space-between
+				align-items: flex-end
+				padding: 30px 0
+				.home-name
+					width: 33%
+					font-weight: 900
+					font-size: 48px
+					line-height: 58px
+					color: $accent
+				.home-description
+					width: 33%
+					font-weight: 500
+					font-size: 18px
+					line-height: 22px
+					color: $accent
+					text-align: center
+				.home-languages
+					width: 33%
+					font-weight: 900
+					font-size: 16px
+					line-height: 19px
+					display: flex
+					align-items: center
+					color: $light
+					display: flex
+					flex-direction: column
+					align-items: flex-end
+
+			// ABOUT ME
+
+#about
+	margin-top: 100px
+	.about-inner
+		width: 100%
+		background-color: #F6F6F6
+		padding: 110px 0
+	.container
+		display: flex
+		flex-direction: column
+		align-items: center
+		p
+			padding-bottom: 20px
+
+			// SKILLS
+
+#skills
+	margin-top: 100px
+	.skills-inner
+		.container 
+			display: flex
+			flex-direction: column
+			align-items: center
+			.my-skills
+				width: 100% 
+				padding: 80px 0 110px 0
+				display: flex
+				justify-content: space-between
+				flex-wrap: wrap
+				.skills-item
+					padding: 0  10px 50px 10px
+					display: flex
+					flex-direction: column
+					align-items: center
+					justify-content: space-between
+					.skills-image
+
+					.skills-title
+						padding: 25px 0
+					.skills-progress
+
+				// PORTFOLIO
+
+#portfolio
+	.portfolio-inner
+		background-color: #F6F6F6
+		padding-top: 110px
+		.container
+			.title
+				margin-bottom: 50px
+			.portfolio-item
+				display: flex
+				flex-direction: column
+				align-items: center
+				padding-bottom: 110px
+				.portfolio-image
+					box-shadow: 2px 3px 6px rgba(0, 0, 0, .16)
+					margin-bottom: 20px
+				.portfolio-link
+					font-weight: 500
+					font-size: 18px
+					line-height: 22px
+					text-align: center
+					text-decoration-line: underline
+					color: $light
+					transition: $anim
+					&:hover
+						color: $accent
+
+#footer
+	.footer-inner
+		margin-top: 110px
+		padding-bottom: 110px
+		.container
+			display: flex
+			flex-direction: column
+			align-items: center
+			text-align: center
+			.send-message
+				display: flex
+				justify-content: center
+				align-items: center
+				width: 180px
+				height: 42px
+				background-color: #000
+				border-radius: 25px
+				text-decoration: none
+				color: #ddd
+				font-weight: 700
+				font-size: 18px
+				transition: $anim
+				opacity: .7
+				&:hover
+					opacity: 1
+
+
+				margin: 30px 0px 80px 0
+			.footer-social
+				width: 50%
+				display: flex
+				justify-content: space-between
+				flex-wrap: wrap
+				margin-bottom: 40px
+				.social-link
+					opacity: .7
+					transition: $anim
+					&:hover
+						opacity: 1
+			.copyright
+				font-weight: 500
+				font-size: 14px
+				line-height: 17px
+				color: $light
+
+
+
+
+
+
+
+
+
+
